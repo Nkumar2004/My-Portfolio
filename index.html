@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nitin Kumar | Front-End Developer</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#top">Nitin<span class="dot">.</span>Kumar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" style="border-color: var(--border);">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-lg-4 gap-2 mt-3 mt-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<div class="hero" id="top">
+  <div class="hero-content">
+    <span class="eyebrow">&lt;hello world/&gt;</span>
+    <h1>Nitin Kumar</h1>
+    <h2>I build <span class="role">front-end</span> experiences with HTML, CSS, JS &amp; Angular</h2>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-accent">View my work</a>
+      <a href="#contact" class="btn-ghost">Get in touch</a>
+    </div>
+  </div>
+</div>
+
+<!-- About -->
+<section id="about">
+  <span class="section-tag">01 · profile</span>
+  <h2 class="section-title">About Me</h2>
+  <div class="about-card">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="nitin.png">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body p-4 p-md-5">
+          <h5 class="card-title">Nitin Kumar</h5>
+          <span class="role-tag">Developer &amp; Designer</span>
+          <p>
+            I'm a front-end developer working
+             with HTML, CSS, JavaScript and Angular.
+            I focus on writing clean code and pixel-perfect designs, and I build
+            interfaces that stay accessible and responsive across every device.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <span class="section-tag">02 · toolkit</span>
+  <h2 class="section-title">My Skills</h2>
+  <div class="skill-row">
+    <div class="skill-item">
+      <div class="skill-label"><span>HTML &amp; CSS</span><span class="pct">90%</span></div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-label"><span>JavaScript</span><span class="pct">75%</span></div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 75%;"></div></div>
+    </div>
+    <div class="skill-item">
+      <div class="skill-label"><span>Angular</span><span class="pct">70%</span></div>
+      <div class="skill-bar"><div class="skill-bar-fill" style="width: 70%;"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services">
+  <span class="section-tag">03 · what I do</span>
+  <h2 class="section-title">My Skills</h2>
+  <div class="row g-4 justify-content-center">
+    <div class="col-md-4">
+      <div class="service-card text-center text-md-start">
+        <i class="fa-solid fa-code mx-auto mx-md-0"></i>
+        <h3>Front-End Development</h3>
+        <p>Clean, maintainable HTML, CSS, JavaScript and Angular code built to last.</p>
+        
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="service-card text-center text-md-start">
+        <i class="fa-solid fa-pen-ruler mx-auto mx-md-0"></i>
+        <h3>UI / UX Design</h3>
+        <p>Interfaces designed around how people actually use them, not just how they look.</p>
+        
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="service-card text-center text-md-start">
+        <i class="fa-solid fa-globe mx-auto mx-md-0"></i>
+        <h3>Web Designer</h3>
+        <p>Responsive, accessible websites that work well on any screen size.</p>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects">
+  <span class="section-tag">04 · work</span>
+  <h2 class="section-title">Recent Projects</h2>
+  <div class="project-card row g-0">
+    <div class="col-md-5">
+      <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&auto=format&fit=crop&q=60" alt="Project one screenshot">
+    </div>
+    <div class="col-md-7 project-body">
+      <h3>Project One</h3>
+      <p class="tagline">// Bazario-website-project</p>
+      <a href="https://github.com/Nkumar2004/Bazario-website-project.git"></a>
+      <p>Bazario-website
+
+Bazario is a modern e-commerce website designed to provide users with a smooth and user-friendly online shopping experience. It features a clean interface and responsive design for different screen sizes.<br>
+
+GitHub: View My Project
+</p>
+    </div>
+  </div>
+  <!-- <div class="project-card row g-0">
+    <div class="col-md-5">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=60" alt="Project two screenshot">
+    </div>
+    <div class="col-md-7 project-body">
+      <h3>Project Two</h3>
+      <p class="tagline">// coding is love</p>
+      <p>A short description of what this project does, the problem it solves, and the stack used to build it. Replace this with your real project write-up.</p>
+    </div>
+  </div> -->
+</section>
+
+<!-- Contact -->
+<section id="contact">
+  <span class="section-tag">05 · say hi</span>
+  <h2 class="section-title">Contact Me</h2>
+  <div class="contact-icons">
+    <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+    <a href="#"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+    <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+  </div>
+  <form class="contact-form">
+    <input type="text" placeholder="Your name" required>
+    <input type="email" placeholder="Your email" required>
+    <input type="tel" placeholder="Your phone number">
+    <textarea rows="4" placeholder="Your message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2026 Nitin Kumar. All rights reserved.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
